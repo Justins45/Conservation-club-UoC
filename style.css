@@ -19,6 +19,9 @@
 		- logo styling (image / text)
 	3. Footer
 		- general styling
+  4. Landing Pge
+  5. About the Club Page
+  6. 
 
 */
 
@@ -242,6 +245,27 @@ h1, h2, h3, h4, h5, h6 {
 .hidden {
 	display: none;
 }
+
+
+/* #################################################### 
+
+	Landing Page Styles  
+
+#################################################### 
+*/
+
+
+
+/* #################################################### 
+
+	About the club Styles  
+
+#################################################### 
+*/
+
+
+
+
 
 
 /* Text meant only for screen readers. */
