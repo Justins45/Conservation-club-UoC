@@ -5,21 +5,21 @@
  * navigation support for dropdown menus.
  */
 ( function() {
-	const siteNavigation = document.getElementById( 'site-navigation' );
+	const siteNavigation = document.getElementById("site-navigation");
 
 	// Return early if the navigation doesn't exist.
 	if ( ! siteNavigation ) {
 		return;
 	}
 
-	const button = siteNavigation.getElementsByTagName( 'button' )[ 0 ];
+	const button = document.getElementById("nav-button");
 
 	// Return early if the button doesn't exist.
 	if ( 'undefined' === typeof button ) {
 		return;
 	}
 
-	const menu = siteNavigation.getElementsByTagName( 'ul' )[ 0 ];
+	const menu = document.getElementById( 'page-nav' );
 
 	// Hide menu toggle button if menu is empty and return early.
 	if ( 'undefined' === typeof menu ) {
@@ -27,13 +27,9 @@
 		return;
 	}
 
-	if ( ! menu.classList.contains( 'nav-menu' ) ) {
-		menu.classList.add( 'nav-menu' );
-	}
-
 	// Toggle the .toggled class and the aria-expanded value each time the button is clicked.
 	button.addEventListener( 'click', function() {
-		siteNavigation.classList.toggle( 'toggled' );
+		menu.classList.toggle( 'toggled' );
 
 		if ( button.getAttribute( 'aria-expanded' ) === 'true' ) {
 			button.setAttribute( 'aria-expanded', 'false' );
@@ -47,7 +43,7 @@
 		const isClickInside = siteNavigation.contains( event.target );
 
 		if ( ! isClickInside ) {
-			siteNavigation.classList.remove( 'toggled' );
+			menu.classList.remove( 'toggled' );
 			button.setAttribute( 'aria-expanded', 'false' );
 		}
 	} );

@@ -66,8 +66,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-button {
-	display: none;
+ display: block;
 }
+
+.page-nav {
+  display: none;
+}
+
+.toggled {
+  display: block;
+}
+
+
 
 .main-navigation {
 	margin-top: 1rem;

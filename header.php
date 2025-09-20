@@ -34,14 +34,17 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="mobile-nav-button" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'custom_justin_shaw' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
+			<button id="nav-button" class="mobile-nav-button" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'custom_justin_shaw' ); ?></button>
+      <div id="page-nav" class="page-nav">
+        <?php
+          wp_nav_menu(
+            array(
+              'theme_location' => 'menu-1',
+              'menu_id'        => 'primary-menu',
+            )
+          );
+			  ?>
+      </div>
+
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
