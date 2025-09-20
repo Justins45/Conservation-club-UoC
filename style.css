@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 .site-header {
 	background-color: var(--white);
 	display: flex;
-	align-items: start;
+  justify-content: space-between;
 	height: 3rem;
 	box-shadow: 5px 5px 5px var(--shadow);
 	margin-left: -1rem;
@@ -66,7 +66,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-button {
- display: block;
+ width: 40px;
+ height: 40px;
+ background-color: transparent;
+ border: none;
+ border-radius: none;
 }
 
 .page-nav {
@@ -77,21 +81,26 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
-
-
 .main-navigation {
-	margin-top: 1rem;
+	margin-top: 0.5rem;
 }
 
-.menu {
+.page-nav .menu {
+  position: absolute;
+  top: 50px;
+  left: 0;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	list-style: none;
-	justify-content: space-around;
+  background-color: var(--light-green);
+  /* background-color: #21759b; */
+  width: 100lvw;
+  height: 100lvh;
+  padding-top: 50px;
+  z-index: 5;
 }
 
 .main-navigation li {
-	margin-left: 3rem;
 	text-transform: uppercase;
 }
 .menu li a {
@@ -123,6 +132,37 @@ h1, h2, h3, h4, h5, h6 {
 .header-logo-text a:hover {
 	text-decoration: underline;
 }
+
+@media screen and (min-width: 865px) {
+
+  .site-header {
+    flex-direction: row-reverse;
+  }
+
+  .mobile-nav-button {
+    display: none;
+  }
+
+  .page-nav {
+    display: block;
+  }
+
+
+
+  .page-nav .menu {
+    flex-direction: row;
+    justify-content: space-around;
+    top: 0;
+    padding-top: 1rem;
+    background-color: transparent;
+    height: auto;
+    z-index: 0;
+    left: 85px;
+    width: 50rem;
+  }
+}
+
+
 
 /* #################################################### 
 
