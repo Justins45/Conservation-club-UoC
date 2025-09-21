@@ -48,7 +48,7 @@ p, a, li, span, div {
   font-style: normal;
   font-variation-settings: "wdth" 100;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 1.5;
 }
 
 
@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-site-logo {
-  margin-top: 0.25rem;
+  margin-top: 0.5rem;
   margin-left: -2rem;
   width: 7.75rem;
 }
@@ -152,6 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 .header-logo-text a {
 	text-decoration: none;
 	color: var(--yellow);
+  line-height: 12px;
 }
 
 .header-logo-text a:hover {
