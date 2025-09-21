@@ -312,7 +312,42 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 25px;
 }
 
+@media screen and (min-width: 920px) {
+  .about-card-grid-top, .about-card-grid-bottom  {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  .about-card h2 {
+    max-width: 250px;
+  }
 
+  .about-card-lb {
+    
+    flex: 33.3333%;
+  }
+
+  .about-card-br {
+    flex: 33.3333%;
+  }
+
+  .about-card-or {
+    flex: 33.3333%;
+  }
+  .about-card-or h2 {
+    height: 72px;
+  }
+    
+  .about-card-lg {
+    flex: 50%;
+  }
+
+  .about-card-dg {
+    flex: 50%;
+    margin-bottom: 0px;
+  }
+
+}
 
 
 /* Text meant only for screen readers. */
