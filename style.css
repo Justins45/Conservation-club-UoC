@@ -7,7 +7,13 @@
 	--black: #000000;
 	--yellow: #DDA15E;
 	--shadow: #D8D8D8;
-  --light-green: #A4AC86;
+  --light-brown: #B6AD90;
+  --brown: #A68A64;
+  --orange: #936639;
+  --light-light-green: #A4AC86;
+  --light-green: #656D4A;
+  --dark-green: #414833;
+  
 }
 
 /* 
@@ -42,6 +48,7 @@ p, a, li, span, div {
   font-style: normal;
   font-variation-settings: "wdth" 100;
   font-size: 18px;
+  line-height: 27px;
 }
 
 
@@ -263,7 +270,42 @@ h1, h2, h3, h4, h5, h6 {
 #################################################### 
 */
 
+.about-main {
+  margin: 25px 0;
+}
 
+.about-container {
+  padding: 25px;
+}
+
+.about-container h2 {
+  font-size:24px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.about-intro p {
+  margin-bottom: 2rem;
+}
+
+.about-card-lb {
+  background-color: var(--light-brown);
+}
+.about-card-br {
+  background-color: var(--brown);
+}
+.about-card-or {
+  background-color: var(--orange);
+}
+.about-card-lg {
+  background-color: var(--light-green);
+  color: var(--shadow);
+}
+.about-card-dg {
+  background-color: var(--dark-green);
+  color: var(--shadow);
+  margin-bottom: 25px;
+}
 
 
 
