@@ -1,22 +1,22 @@
 Steps to setup Wildlife Conservation Club
 
-1. Establish Database connection
-2. Make admin account (mine)
-3. Add pages
-  - Home 
+1. Make admin account (mine)
+2. Add base pages
+  - Home (static page)
   - About
   - Resources
   - Get involved
   - Submissions (posts page)
   - Submit your own
-3. Add posts
+3. Add base posts
   - Social Media
   - Contact
-  - 
-4. add footer menus
+  -
+4. Make sure main navigation is checked as primary menu 
+5. add footer menus
   *KEEP THESE NAMES - THESE ARE HARD CALLED IN THEME*
-  - footer-menu-1 (submissions / social media / about us / contact)
-  - footer-menu-2 ()
-  - footer-menu-3 ()
-5. Add custom theme
-6. add initial accounts (secondary admins) - (Nya / __ / __)
+  - footer-menu-1 (left)
+  - footer-menu-2 (middle)
+  - footer-menu-3 (right)
+6. Add custom theme
+7. add initial accounts (secondary admins) - (Nya / __ / __)
