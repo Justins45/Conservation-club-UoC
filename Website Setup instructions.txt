@@ -8,6 +8,7 @@ Steps to setup Wildlife Conservation Club
   - Get involved
   - Submissions (posts page)
   - Submit your own
+  - Login
 3. Add base posts
   - Social Media
   - Contact
