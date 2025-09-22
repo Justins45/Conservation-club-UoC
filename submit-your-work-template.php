@@ -35,7 +35,7 @@ get_header();
           <li>By submitting, you agree to allow us to feature your work on our website and social media (with full credit).</li>
         </ul>
       </div>
-      <a href="/wp-login.php" class="get-started-button">
+      <a href="http://localhost/conservation-club/wordpress/login/" class="get-started-button">
         <p>Click here to get Started!</p>
       </a>
 
