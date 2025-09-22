@@ -7,12 +7,11 @@ get_header();
 ?>
 
 <main id="primary" class="site-main">
-
   <div>
-    <div>
-      <h1>Wildlife Conservation Club</h1>
+    <h1>Wildlife Conservation Club</h1>
       <p>Investing in the Future of Our Planet</p>
     </div>
+  <div>  
     <div class="content-container multi-intro">
       <h2>Why is this Important? Who are we?</h2>
       <h3>What is the WWC?</h3>
@@ -44,7 +43,6 @@ get_header();
       ?>
     </div>
   </div>
-
 </main>
 
 <?php
