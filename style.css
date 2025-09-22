@@ -25,9 +25,13 @@
 		- logo styling (image / text)
 	3. Footer
 		- general styling
-  4. Landing Pge
-  5. About the Club Page
-  6. 
+  4. General Styling
+  5. Landing Pge
+  6. About the Club Page
+  7. Resources
+  8. Get Involved
+  9. Submissions
+  10. Submit your Work
 
 */
 
@@ -258,6 +262,47 @@ h1, h2, h3, h4, h5, h6 {
 	display: none;
 }
 
+/* #################################################### 
+
+	General styles  
+
+#################################################### 
+*/
+
+.content-container {
+  padding: 25px;
+}
+
+.content-container h2 {
+  font-size:24px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.multi-intro h3 {
+  margin-bottom: 1rem;
+}
+
+.multi-intro p {
+  margin-bottom: 2rem;
+}
+
+.dotted-list {
+  list-style: disc;
+  margin-left: 2rem;
+}
+
+.dotted-list li {
+  margin-bottom: 0.5rem;
+}
+
+.list-lg li {
+ margin-bottom: 1rem;
+}
+
+.spacer {
+  margin-top: 3rem;
+}
 
 /* #################################################### 
 
@@ -277,20 +322,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .about-main {
   margin: 25px 0;
-}
-
-.about-container {
-  padding: 25px;
-}
-
-.about-container h2 {
-  font-size:24px;
-  font-weight: 600;
-  margin-bottom: 1rem;
-}
-
-.about-intro p {
-  margin-bottom: 2rem;
 }
 
 .about-card-lb {
@@ -348,6 +379,61 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 }
+
+/* #################################################### 
+
+	Resources Styles  
+
+#################################################### 
+*/
+
+
+/* #################################################### 
+
+	Get Involved Styles  
+
+#################################################### 
+*/
+
+
+/* #################################################### 
+
+	Submissions Styles  
+
+#################################################### 
+*/
+
+
+/* #################################################### 
+
+	Submit your Work Styles  
+
+#################################################### 
+*/
+
+.get-started-button {
+  background-color: var(--brown);
+  border-radius: 10px;
+  padding: 1rem 0;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display:inline-block;
+  margin-top: 1rem;
+  color: var(--black);
+  text-decoration: none;
+}
+
+.get-started-button:hover {
+  text-decoration: underline;
+}
+
+.get-started-button p {
+  font-weight: 800;
+  width: 100%;
+  margin: 0 auto;
+}
+
 
 
 /* Text meant only for screen readers. */
