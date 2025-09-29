@@ -176,3 +176,10 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+function new_excerpt_length($length) {
+
+return 20;
+
+}
+
+add_filter('excerpt_length', 'new_excerpt_length');

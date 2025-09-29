@@ -1,6 +1,7 @@
 Steps to setup Wildlife Conservation Club
 
 1. Make admin account (mine)
+2. restore from backup? -- might negate all below --
 2. Add base pages
   - Home (static page)
   - About
