@@ -1,6 +1,8 @@
 <?php
 /**
  * The template for displaying archive pages
+ * 
+ * CATEGORY DISPLAY PAGE?????????
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -11,7 +13,7 @@ get_header();
 ?>
 
 	<main id="primary" class="site-main">
-
+    <p>CATEGORY / ARCHIVE????</p>
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">

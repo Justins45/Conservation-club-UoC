@@ -10,28 +10,43 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
+	<div>
+    <h1 class="post-title"><?php the_title(); ?></h1>
 		<?php
-		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
-
-		if ( 'post' === get_post_type() ) :
-			?>
-			<div class="entry-meta">
+		  if ( 'post' === get_post_type() ) :
+		?>
+			<div class="post-meta">
 				<?php
-				custom_justin_shaw_posted_on();
-				custom_justin_shaw_posted_by();
+				  custom_justin_shaw_posted_on();
+				  custom_justin_shaw_posted_by();
 				?>
+        <p>
+          <?php 
+            edit_post_link(
+              sprintf(
+                wp_kses(
+                  /* translators: %s: Name of current post. Only visible to screen readers */
+                  __( 'Edit <span class="screen-reader-text">%s</span>', 'custom_justin_shaw' ),
+                  array(
+                    'span' => array(
+                      'class' => array(),
+                    ),
+                  )
+                ),
+                wp_kses_post( get_the_title() )
+              ),
+              '<p class="edit-link">',
+              '</p>'
+            );
+          ?>
+        </p>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
-	</header><!-- .entry-header -->
+	</div><!-- .entry-header -->
 
 	<?php custom_justin_shaw_post_thumbnail(); ?>
 
-	<div class="entry-content">
+	<div class="post-content">
 		<?php
 		the_content(
 			sprintf(
@@ -57,7 +72,7 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
+	<div class="post-footer">
 		<?php custom_justin_shaw_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	</div><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

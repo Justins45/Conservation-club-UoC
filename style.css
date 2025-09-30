@@ -28,10 +28,10 @@
   4. General Styling
   5. Landing Pge
   6. About the Club Page
-  7. Resources
-  8. Get Involved
-  9. Submissions
-  10. Submit your Work
+  7. Get Involved
+  8. Submissions
+  9. Submit your Work
+  10. Single post Styling
 
 */
 
@@ -490,6 +490,63 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/* #################################################### 
+
+	Single Posts Styles - single.php  / template-parts/content.php
+
+#################################################### 
+*/
+
+.post-container {
+  margin: 2rem 1.5rem;
+}
+
+.post-content {
+  margin-bottom: 2rem;
+}
+
+.post-title {
+  font-size: 33px;
+}
+
+.post-meta {
+  margin: 1rem 0;
+}
+
+.post-meta .updated {
+  display: none;
+}
+
+/* edit post if user is logged in - template-tags.php line 96-110 */
+.edit-link {
+  display: block;
+}
+
+.post-navigation {
+  margin: 2rem 0;
+}
+
+.cat-title {
+  margin: 0.5rem 0;
+}
+
+.cat-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.cat-links a {
+  background-color: var(--light-grey);
+  padding: 0.25rem 1rem;
+  border-radius: 25px;
+  color: var(--black);
+  text-decoration: none;
+}
+
+.cat-links a:hover {
+  text-decoration: underline;
+}
 
 /* Text meant only for screen readers. */
 .screen-reader-text {
