@@ -26,14 +26,14 @@ get_header();
           the_post_thumbnail('thumbnail');
       } ?>
       <h2 class="submission-title"><?php the_title(); ?></h2>
-      <div>
+      <div class="submission-category">
         <?php the_category(); ?>
       </div>
       <p class="submission-excerpt"><?php the_excerpt(); ?></p>
-      <p><?php the_author(); ?></p>
-      <p><?php the_date(); ?></p>
+      <p class="submission-author"><?php the_author(); ?> | <?php the_date(); ?></p>
+      <p></p>
 
-      <a href="<?php the_permalink(); ?>" target="_blank">Read me!</a>
+      <a href="<?php the_permalink(); ?>" target="_blank">Read more!</a>
     </div>
   <?php endwhile; ?>
   <?php endif; wp_reset_postdata(); ?>
