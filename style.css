@@ -392,6 +392,15 @@ h1, h2, h3, h4, h5, h6 {
 #################################################### 
 */
 
+.bake-sale {
+  margin-bottom: 2rem;
+}
+
+.get-involved-completed ul {
+  list-style-type: disc;
+  margin-left: 3rem;
+}
+
 
 /* #################################################### 
 
