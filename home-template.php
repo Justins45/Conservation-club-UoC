@@ -18,6 +18,9 @@ get_header();
       <p>The WCC is a University of Calgary SU Club that aims to conserve and protect the habitats of endangered species while also raising awareness about sustainability and sustainable practices.</p>
       <p>Important especially now during times where many animals are endangered and in a time of ecological crisis.</p>
     </div>
+    <div>
+      <!-- put stats 3 blocks -->
+    </div>
     <div class="home-posts">
       <h2>Latest Posts</h2>
       <?php 
@@ -46,19 +49,19 @@ get_header();
       </div>
     </div>
     <div class="be-the-difference-container">
-    <div class="be-the-difference">
-          <h2>Be the Difference</h2>
-          <p>There are a multitude of ways you can be the difference. It all starts with an action, starting small always and sticking to your goals will always lead to a bigger impact.</p>
-          <p>Check out our Get Involved page to learn more details about how you can be the Difference</p>
+      <div class="be-the-difference">
+        <h2>Be the Difference</h2>
+        <p>There are a multitude of ways you can be the difference. It all starts with an action, starting small always and sticking to your goals will always lead to a bigger impact.</p>
+        <p>Check out our Get Involved page to learn more details about how you can be the Difference</p>
+      </div>
     </div>
     <div>
       <!-- image -->
     </div>
-  </div>
-  <div class="why-needed">
-    <h2>Why is this needed?</h2>
-    <p>Animal conservation is <span class="bolded">crucial</span> not only for the survival of individual species but also for the health of <span class="bolded">entire ecosystems and human well-being</span>. Each species plays a role in the intricate balance of life, and its disappearance can have widespread and unpredictable effects.</p>
-  </div>
+    <div class="why-needed">
+      <h2>Why is this needed?</h2>
+      <p>Animal conservation is <span class="bolded">crucial</span> not only for the survival of individual species but also for the health of <span class="bolded">entire ecosystems and human well-being</span>. Each species plays a role in the intricate balance of life, and its disappearance can have widespread and unpredictable effects.</p>
+    </div>
   </div>
   
 </main>
