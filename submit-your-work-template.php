@@ -4,15 +4,14 @@
  */
 
 get_header();
+$post_thumbnail = get_the_post_thumbnail_url(); 
 ?>
 
-	<main id="primary" >
-
-    <div>
+	<main id="primary" class="site-main">
+    <div style="background-image: url('<?php echo $post_thumbnail; ?>');" class="page-banner">
       <h1>Submit Your Work</h1>
     </div>
-
-    <div class="site-main">     
+    <div>     
       <div class="content-container">
         <div class=" multi-intro">
           <p>Are you passionate about wildlife and eco-friendly conservation? This a space open to anyone who wants to share their creativity,  knowledge, and passion for wildlife and the environment</p>

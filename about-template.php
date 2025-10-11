@@ -4,14 +4,14 @@
  */
 
 get_header();
+$post_thumbnail = get_the_post_thumbnail_url(); 
 ?>
 
-<main id="primary">
-  <div>
-    <!-- image -->
+<main id="primary" class="site-main">
+  <div style="background-image: url('<?php echo $post_thumbnail; ?>');" class="page-banner">
     <h1>About The Club</h1>
   </div>
-  <div class="site-main">    
+  <div >    
     <div class="about-main">
       <div class="content-container multi-intro">
         <p>Welcome to the Wildlife Conservation Club at the University of Calgary! We are a passionate, student-led community committed to protecting wildlife and promoting sustainable, eco-friendly living both on campus and beyond.</p>          <p>This website is our digital home; a space for awareness, creativity, and action. Here, you can:</p>

@@ -4,15 +4,17 @@
  */
 
 get_header();
+
+$post_thumbnail = get_the_post_thumbnail_url();
 ?>
 
-<main id="primary" class="">
-  <div>
+<main id="primary" class="site-main">
+  <div style="background-image: url('<?php echo $post_thumbnail; ?>');" class="page-banner home-banner">
     <h1>Wildlife Conservation Club</h1>
     <p>Investing in the Future of Our Planet</p>
   </div>
-  <div class="site-main content-container">  
-    <div class=" multi-intro">
+  <div class="content-container">  
+    <div class="multi-intro">
       <h2>Why is this Important? Who are we?</h2>
       <h3>What is the WWC?</h3>
       <p>The WCC is a University of Calgary SU Club that aims to conserve and protect the habitats of endangered species while also raising awareness about sustainability and sustainable practices.</p>

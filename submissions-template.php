@@ -4,10 +4,13 @@
  */
 
 get_header();
+$post_thumbnail = get_the_post_thumbnail_url(); 
 ?>
 
 <main id="primary" class="site-main">
-  <h1>Submissions</h1>
+  <div style="background-image: url('<?php echo $post_thumbnail; ?>');" class="page-banner">
+    <h1>Submissions</h1>
+  </div>
 <?php 
   $args = array(
     'post_type'=> 'post',
