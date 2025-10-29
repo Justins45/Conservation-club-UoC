@@ -346,6 +346,17 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 
+
+@media screen and (min-width: 920px) {
+  .page-banner {
+    background-position: center;
+  }
+
+  .home-banner {
+    background-position-y: 20%;
+  }
+
+}
 /* #################################################### 
 
 	Landing Page Styles  
@@ -382,10 +393,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .be-the-difference p {
   margin-bottom: 1rem;
-}
-
-.why-needed {
-  
 }
 
 .why-needed h2 {
