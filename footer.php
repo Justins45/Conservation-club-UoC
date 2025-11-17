@@ -2,15 +2,15 @@
 		<div class="footer-content">
 			<div>
           <?php
-        the_custom_logo();
-        if ( is_front_page() && is_home() ) :
+            the_custom_logo();
+            if ( is_front_page() && is_home() ) :
           ?>
           <h2><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h2>
           <?php
-        else :
-          ?>
-          <p class="footer-logo-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-        <?php endif; ?>
+            else :
+              ?>
+              <p class="footer-logo-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+          <?php endif; ?>
       </div>
       <div class="footer-menus">  
         <div class="footer-menu-col">
