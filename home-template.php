@@ -56,10 +56,10 @@ $post_thumbnail = get_the_post_thumbnail_url();
         <p>There are a multitude of ways you can be the difference. It all starts with an action, starting small always and sticking to your goals will always lead to a bigger impact.</p>
         <p>Check out our Get Involved page to learn more details about how you can be the Difference</p>
       </div>
-    </div>
-    <div>
       <!-- image -->
+       <img src="<?php echo get_template_directory_uri(); ?>/images/pexels-pixabay-45853.jpg" alt="">
     </div>
+    
     <div class="why-needed">
       <h2>Why is this needed?</h2>
       <p>Animal conservation is <span class="bolded">crucial</span> not only for the survival of individual species but also for the health of <span class="bolded">entire ecosystems and human well-being</span>. Each species plays a role in the intricate balance of life, and its disappearance can have widespread and unpredictable effects.</p>

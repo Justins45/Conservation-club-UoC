@@ -348,6 +348,10 @@ h1, h2, h3, h4, h5, h6 {
 
 
 @media screen and (min-width: 920px) {
+
+  .site-main {
+    margin-top: 1rem;
+  }
   .page-banner {
     background-position: center;
   }
@@ -379,11 +383,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .be-the-difference-container {
   background-color: var(--light-brown);
+  
 }
 
 .be-the-difference {
   padding: 2rem;
   margin-bottom: 2rem;
+}
+
+.be-the-difference-container img {
+  width: 100%;
+  margin-bottom: -8px;
 }
 
 .be-the-difference h2 {
@@ -400,11 +410,31 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
 }
 
+.why-needed {
+  margin-top: 2rem;
+}
+
 .why-needed p {
   margin-bottom: 1rem;
 }
+@media screen and (min-width: 920px) {
 
+  .be-the-difference-container {
+    display: flex;
+    border-radius: 15px;
+  }
 
+  .be-the-difference {
+    width: 50%;
+  }
+
+  .be-the-difference-container img {
+    max-width: 50%;
+    margin-bottom: 0px;
+    border-radius: 0 15px 15px 0;
+  }
+ 
+}
 
 /* #################################################### 
 
