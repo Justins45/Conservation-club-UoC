@@ -713,3 +713,25 @@ h1, h2, h3, h4, h5, h6 {
 	width: auto;
 	z-index: 100000;
 }
+
+/* #################################################### 
+
+	comments.php
+
+#################################################### 
+*/
+
+.comment-form-comment {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.form-submit input#submit {
+  background-color: var(--brown);
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+
