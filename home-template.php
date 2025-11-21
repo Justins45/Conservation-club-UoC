@@ -39,12 +39,19 @@ $post_thumbnail = get_the_post_thumbnail_url();
       <div class="home-submissions-container">
         <?php while ( $result->have_posts() ) : $result->the_post(); ?>
           <div class="home-submission-block">
-            <h2 class="submission-title"><?php the_title(); ?></h2>
-            <p class="submission-excerpt"><?php the_excerpt(); ?></p>
-            <p class="submission-author"><?php the_author(); ?> | <?php the_date(); ?></p>
-            <p></p>
+            <?php if ( has_post_thumbnail() ):  ?>
+              <div class="post-image-preview">
+                <?php the_post_thumbnail('thumbnail'); ?>
+              </div>
+            <?php endif; ?>
+            <div>
+              <h2 class="submission-title"><?php the_title(); ?></h2>
+              <p class="submission-excerpt"><?php the_excerpt(); ?></p>
+              <p class="submission-author"><?php the_author(); ?> | <?php the_date(); ?></p>
+              <p></p>
 
-            <a href="<?php the_permalink(); ?>" target="_blank">Read more!</a>
+              <a href="<?php the_permalink(); ?>" target="_blank">Read more!</a>
+            </div>
           </div>
         <?php endwhile; ?>
       <?php endif;?>

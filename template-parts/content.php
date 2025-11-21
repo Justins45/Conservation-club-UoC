@@ -44,8 +44,9 @@
 		<?php endif; ?>
 	</div><!-- .entry-header -->
 
-	<?php custom_justin_shaw_post_thumbnail(); ?>
-
+  <div class="post-thumbnail">
+	  <?php custom_justin_shaw_post_thumbnail(); ?>
+  </div>
 	<div class="post-content">
 		<?php
 		the_content(

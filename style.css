@@ -420,6 +420,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (min-width: 920px) {
 
+  .home-submission-block {
+    display: flex;
+  }
+
   .be-the-difference-container {
     display: flex;
     border-radius: 15px;
@@ -533,7 +537,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 
 .submission-container {
-  padding: 1rem;
+  padding: 1rem; 
 }
 
 .submission-block {
@@ -542,6 +546,10 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 24px;
   padding: 1rem;
   width: 330px;
+}
+
+.post-image-preview {
+  margin-bottom: 0.5rem;
 }
 
 .submission-title {
@@ -586,6 +594,21 @@ h1, h2, h3, h4, h5, h6 {
 
   .submission-block {
     width: 52rem;
+    display: flex;
+  }
+
+  .post-image-preview {
+    margin-bottom: 0;
+    margin-right: 1rem;
+  }
+
+  .post-image-preview img {
+    border-radius: 5px;
+  }
+
+  .post-thumbnail img {
+    max-width: 100%;
+    height: auto;
   }
 
 }
