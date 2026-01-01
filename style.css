@@ -764,15 +764,18 @@ h1, h2, h3, h4, h5, h6 {
 #################################################### 
 */
 
-.error-404 {
-  padding: 1rem;
-}
-
-.error-content {
+.page-header, .error-search, .error-posts, .error-categories {
   margin: 1rem 0;
 }
 
-.error-posts, .error-categories {
-  margin: 1rem 0;
-}
 
+/* #################################################### 
+
+	Archive / Category Styles  
+
+#################################################### 
+*/
+
+.archive-page-post .post {
+  margin-bottom: 2rem;
+}
