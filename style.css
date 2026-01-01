@@ -207,7 +207,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #################################################### 
 */
-/* asdasdasd  */
 
 
 .footer-content {
@@ -757,4 +756,23 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
 }
 
+
+/* #################################################### 
+
+	404 Page Styles  
+
+#################################################### 
+*/
+
+.error-404 {
+  padding: 1rem;
+}
+
+.error-content {
+  margin: 1rem 0;
+}
+
+.error-posts, .error-categories {
+  margin: 1rem 0;
+}
 
