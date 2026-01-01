@@ -36,9 +36,9 @@ $post_thumbnail = get_the_post_thumbnail_url();
         $result = new WP_Query( $args );
         if ( $result-> have_posts() ) : 
       ?>
-      <div class="home-submissions-container">
+      <div class="submissions-container">
         <?php while ( $result->have_posts() ) : $result->the_post(); ?>
-          <div class="home-submission-block">
+          <div class="submission-block">
             <?php if ( has_post_thumbnail() ):  ?>
               <div class="post-image-preview">
                 <?php the_post_thumbnail('thumbnail'); ?>
@@ -46,6 +46,9 @@ $post_thumbnail = get_the_post_thumbnail_url();
             <?php endif; ?>
             <div>
               <h2 class="submission-title"><?php the_title(); ?></h2>
+              <div class="submission-category">
+                <?php the_category(); ?>
+              </div>
               <p class="submission-excerpt"><?php the_excerpt(); ?></p>
               <p class="submission-author"><?php the_author(); ?> | <?php the_date(); ?></p>
               <p></p>

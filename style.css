@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: var(--yellow);
 }
 
-.current-menu-item a[aria-current] {
+#primary-menu .current-menu-item a[aria-current] {
 	color: var(--yellow);
 	font-weight: 600;
 }
@@ -373,7 +373,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2rem;
 }
 
-.home-submission-block {
+.submission-block {
   background-color: #fafafa;
 	box-shadow: 0 4px 8px var(--shadow), 0 6px 20px var(--shadow);
   padding: 1.5rem;
@@ -419,7 +419,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (min-width: 920px) {
 
-  .home-submission-block {
+  .submission-block {
     display: flex;
   }
 
@@ -539,12 +539,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 1rem; 
 }
 
-.submission-block {
-  margin: 2rem auto;
-  border: 1px solid var(--black);
-  border-radius: 24px;
-  padding: 1rem;
-  width: 330px;
+.submissions-container {
+  margin-top: 2rem;
 }
 
 .post-image-preview {
@@ -590,11 +586,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (min-width: 920px) {
-
-  .submission-block {
-    width: 52rem;
-    display: flex;
-  }
 
   .post-image-preview {
     margin-bottom: 0;
