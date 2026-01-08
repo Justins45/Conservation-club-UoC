@@ -737,7 +737,7 @@ h1, h2, h3, h4, h5, h6 {
 .comment-form-comment {
   display: flex;
   flex-direction: column;
-  margin: 1rem;
+  margin: 1rem 0rem;
 }
 
 .form-submit input#submit {
@@ -746,6 +746,15 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
   border: none;
 }
+
+.comment-author, .comment-respond, .comment-content {
+  margin-top: 1rem;
+}
+
+.comment-body .reply {
+  margin-top: 0.5rem;
+}
+
 
 
 /* #################################################### 
