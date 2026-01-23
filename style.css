@@ -1,3 +1,21 @@
+/*
+Theme Name: WCC Custom Theme
+Theme URI: 
+Author: Justin Shaw
+Author URI: justinshaw.ca
+Description: Custom theme for the Wildlife conservation club at University of Calgary
+Tags: 
+Version: 1.1
+Requires at least: 
+Tested up to:
+Requires PHP: 
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: 
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
 /* Resets any browser default css styling */
 @import url(reset.css);
 
@@ -238,6 +256,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
+.footer-menu-col li a:hover {
+  color: var(--yellow);
+  text-decoration: underline;
+}
+
 .hidden {
 	display: none;
 }
@@ -344,6 +367,13 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 1px 1px var(--shadow);
   padding: 1rem 2rem;
   
+}
+
+.logged-out a, .wp-block-loginout.logged-in a {
+  padding: 1rem;
+  background-color: var(--orange);
+  color: var(--white);
+  border-radius: 8px;
 }
 
 

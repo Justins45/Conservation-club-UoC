@@ -34,13 +34,13 @@ $post_thumbnail = get_the_post_thumbnail_url();
       <p></p>
       <ul>
         <li>
-          <a href="">Calgary Wildlife Rehabilitation Society</a>
+          <a href="https://www.calgarywildlife.org/" target="_blank">Calgary Wildlife Rehabilitation Society</a>
         </li>
         <li>
-          <a href="">Alberta Institute For Wildlife Conservation</a>
+          <a href="https://www.aiwc.ca/" target="_blank">Alberta Institute For Wildlife Conservation</a>
         </li>
         <li>
-          <a href="">Alberta Birds of Prey Foundation</a>
+          <a href="https://burrowingowl.com/content.php?p=home" target="_blank">Alberta Birds of Prey Foundation</a>
         </li>
       </ul>
     </div>

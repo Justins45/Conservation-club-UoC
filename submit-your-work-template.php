@@ -36,7 +36,7 @@ $post_thumbnail = get_the_post_thumbnail_url();
           </ul>
         </div>
         <!-- ERROR: FIGURE OUT PROPER WAY TO LINK TO PAGE | OR REMOVE AND USE DEFAULT -->
-        <a href="http://localhost/conservation-club/wordpress/login/" class="get-started-button" target="_blank">
+        <a href="<?php echo home_url('/login/'); ?>" class="get-started-button" target="_blank">
           <p>Click here to get Started!</p>
         </a>
       </div>
